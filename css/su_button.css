@@ -1,0 +1,133 @@
+/* 
+su 表示按钮(默认无样式)
+radius 表示圆角按钮
+circle 圆形按钮
+tinge_rule 淡背景 默认按钮
+tinge_blue 淡背景 蓝色按钮
+tinge_green 淡背景 绿色按钮
+tinge_orange 淡背景 橙色按钮
+tinge_reg 淡背景 红色按钮
+rule 纯色 默认按钮
+blue 纯色 蓝色按钮
+green 纯色 绿色按钮
+orange 纯色 橙色按钮
+reg 纯色 红色按钮 */
+
+
+.su {
+    display: inline-block;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    color: #fff;
+}
+.radius {
+    border-radius: 20px;
+    width: 110px;
+}
+.circle {
+    width: 40px;
+    border-radius: 50%;
+}
+.tinge_rule {
+    color: rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.tinge_blue {
+    color: rgba(64, 158, 255, 1);
+    background-color: rgba(64, 158, 255, 0.1);
+    border: 1px solid rgba(64, 158, 255, 0.3);
+}
+.tinge_green {
+    color: rgba(103, 194, 58, 1);
+    background-color: rgba(103, 194, 58, 0.1);
+    border: 1px solid rgba(103, 194, 58, 0.3);
+}
+.tinge_gray {
+    color: rgba(144, 147, 153, 1);
+    background-color: rgba(144, 147, 153, 0.1);
+    border: 1px solid rgba(144, 147, 153, 0.3);
+}
+.tinge_orange {
+    color: rgba(230, 162, 60, 1);
+    background-color: rgba(230, 162, 60, 0.1);
+    border: 1px solid rgba(230, 162, 60, 0.3);
+}
+.tinge_reg {
+    color: rgba(245, 108, 108, 1);
+    background-color: rgba(245, 108, 108, 0.1);
+    border: 1px solid rgba(245, 108, 108, 0.3);
+}
+.rule {
+    color: rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.blue {
+    background-color: rgba(64, 158, 255, 1);
+}
+.green {
+    background-color: rgba(103, 194, 58, 1);
+}
+.gray {
+    background-color: rgba(144, 147, 153, 1);
+}
+.orange {
+    background-color: rgba(230, 162, 60, 1);
+}
+.reg {
+    background-color: rgba(245, 108, 108, 1);
+}
+
+.su:hover {
+    cursor: pointer;
+}
+.rule:hover {
+    color: rgba(64, 158, 255, 1);
+    background-color: rgba(64, 158, 255, 0.1);
+    border: 1px solid rgba(64, 158, 255, 0.5);
+}
+.blue:hover {
+    background-color: rgba(64, 158, 255, 0.8);
+}
+.green:hover {
+    background-color: rgba(103, 194, 58, 0.8);
+}
+.gray:hover {
+    background-color: rgba(144, 147, 153, 0.8);
+}
+.orange:hover {
+    background-color: rgba(230, 162, 60, 0.8);
+}
+.reg:hover {
+    background-color: rgba(245, 108, 108, 0.8);
+}
+.tinge_rule:hover {
+    color: rgba(64, 158, 255, 1);
+    border: 1px solid rgba(64, 158, 255, 1);
+}
+.tinge_blue:hover {
+    color: #fff;
+    background-color: rgba(64, 158, 255, 1);
+}
+.tinge_green:hover {
+    color: #fff;
+    background-color: rgba(103, 194, 58, 1);
+}
+.tinge_gray:hover {
+    color: #fff;
+    background-color: rgba(144, 147, 153, 1);
+}
+.tinge_orange:hover {
+    color: #fff;
+    background-color: rgba(230, 162, 60, 1);
+}
+.tinge_reg:hover {
+    color: #fff;
+    background-color: rgba(245, 108, 108, 1);
+}
